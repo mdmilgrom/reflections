@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+It sets up the meta data to keep track of revisions. Without initialization, git would not know version control was intended for these files.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area holds files before they are added to the repository, but not all files in the working directory are in either the staging area or repository. It provides more control over what is added to version control and when.
+
