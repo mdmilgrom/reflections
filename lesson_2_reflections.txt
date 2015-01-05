@@ -6,3 +6,7 @@ The staging area holds files before they are added to the repository, but not al
 
 How can you use the staging area to make sure you have one commit per logical change?
 By adding the file to staging after each logical change. This ensures that only that change gets committed before other changes.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Experimenting with a new implementation but still fixing bugs in the main branch-- keep the bug fixes and new code separate to keep the main branch stable
+Dev/Beta/Production branches for tracking code rollout through stages
