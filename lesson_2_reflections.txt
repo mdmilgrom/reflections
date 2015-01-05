@@ -11,3 +11,6 @@ What are some situations when branches would be helpful in keeping your history 
 Experimenting with a new implementation but still fixing bugs in the main branch-- keep the bug fixes and new code separate to keep the main branch stable
 Dev/Beta/Production branches for tracking code rollout through stages
 Multiple developers working on different features can use different branches to keep work separate before merging
+
+How do the diagrams help you visualize the branch structure?
+Diagrams show where branches diverge and can identify who made which changes to which branches.
