@@ -17,3 +17,7 @@ Diagrams show where branches diverge and can identify who made which changes to 
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 It combines changes done either by more than one developer working on different parts of the code or an experimental branch of code with the main branch, when the master has changed since the experiment forked. It's represented as a convergence in the diagram because it combines two different branches back together.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: automatic can save a lot of time for basic changes and often just works
+Cons: it's not full-proof, and it may have unexpected results if lots of complicated changes have been made between branches
