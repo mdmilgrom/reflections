@@ -8,3 +8,6 @@ If you don't know who else has changed the repository or what was changed, autom
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 Forks are copies of someone else's repository that you can't change, while clones are copies of a repository you are allowed to edit. Branches are different versions of the same codebase in a repository.
 You use clones and branches when working on your own code, especially with multiple people. You use a fork when you want to look at and possibly change someone else's project and possibly later request your changes be added back to the original project.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+It allows for comparison of changes you made with those someone else working on the project made since the last central check-in. It also allows you to work offline and still sync up later and merge your changes in with someone else's reliably.
