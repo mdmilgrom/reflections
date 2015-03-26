@@ -11,3 +11,6 @@ You use clones and branches when working on your own code, especially with multi
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 It allows for comparison of changes you made with those someone else working on the project made since the last central check-in. It also allows you to work offline and still sync up later and merge your changes in with someone else's reliably.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+We would either call, text, or e-mail suggested changes and file versions between people or use a shared drive with multiple versions someone would review. Comparing versions, merging, and requesting reviews would all be somewhat harder, and the only benefit would be not requiring an Internet connection to access GitHub.
