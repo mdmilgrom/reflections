@@ -14,3 +14,6 @@ It allows for comparison of changes you made with those someone else working on 
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 We would either call, text, or e-mail suggested changes and file versions between people or use a shared drive with multiple versions someone would review. Comparing versions, merging, and requesting reviews would all be somewhat harder, and the only benefit would be not requiring an Internet connection to access GitHub.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+If the changes are potentially disruptive to the main code path or likely to need significant development and debug time, a separate branch protects the rest of the team from those potential problems until the new code is ready. If the changes are smaller or likely to improve work for others, putting them in the master branch for everyone to see and review might make sense.
